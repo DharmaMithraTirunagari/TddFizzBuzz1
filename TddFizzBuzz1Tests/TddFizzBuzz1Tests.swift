@@ -8,29 +8,41 @@
 import XCTest
 @testable import TddFizzBuzz1
 
-final class TddFizzBuzz1Tests: XCTestCase {
 
+
+final class TddFizzBuzz1Tests: XCTestCase {
+    
+    var objFizzBuzz: FizzBuzz!
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        objFizzBuzz = FizzBuzz()
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        objFizzBuzz = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testmultipleOfThree() {
+        XCTAssertEqual(objFizzBuzz.checkNumber(9), "Fizz")
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testmultipleOfFive() {
+        XCTAssertEqual(objFizzBuzz.checkNumber(10), "Buzz")
     }
-
+    func testmultipleOfThreeAndFive() {
+        XCTAssertEqual(objFizzBuzz.checkNumber(15), "FizzBuzz")
+    }
+    func testNotMultipleOfThree() {
+        XCTAssertNotEqual(objFizzBuzz.checkNumber(11), "Fizz")
+    }
+    func testNotMultipleOfFive() {
+        XCTAssertEqual(objFizzBuzz.checkNumber(17), "17")
+    }
+    func testNotMultipleOfThreeAndFive() {
+        XCTAssertEqual(objFizzBuzz.checkNumber(13), "13")
+    }
+    func testOptional() {
+        XCTAssertEqual(objFizzBuzz.checkNumber(nil), "Invalid Input")
+    }
+    
 }

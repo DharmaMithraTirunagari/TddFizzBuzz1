@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		00722BFE2CF120D000D474F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00722BDF2CF120CE00D474F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00722BE62CF120CE00D474F6;
+			remoteInfo = TddFizzBuzz1;
+		};
+		00722C082CF120D000D474F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00722BDF2CF120CE00D474F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00722BE62CF120CE00D474F6;
+			remoteInfo = TddFizzBuzz1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00722BE72CF120CE00D474F6 /* TddFizzBuzz1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TddFizzBuzz1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00722BFD2CF120D000D474F6 /* TddFizzBuzz1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TddFizzBuzz1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00722C072CF120D000D474F6 /* TddFizzBuzz1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TddFizzBuzz1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		00722C0F2CF120D000D474F6 /* Exceptions for "TddFizzBuzz1" folder in "TddFizzBuzz1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 00722BE62CF120CE00D474F6 /* TddFizzBuzz1 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		00722BE92CF120CE00D474F6 /* TddFizzBuzz1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				00722C0F2CF120D000D474F6 /* Exceptions for "TddFizzBuzz1" folder in "TddFizzBuzz1" target */,
+			);
+			path = TddFizzBuzz1;
+			sourceTree = "<group>";
+		};
+		00722C002CF120D000D474F6 /* TddFizzBuzz1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TddFizzBuzz1Tests;
+			sourceTree = "<group>";
+		};
+		00722C0A2CF120D000D474F6 /* TddFizzBuzz1UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TddFizzBuzz1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00722BE42CF120CE00D474F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00722BFA2CF120D000D474F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00722C042CF120D000D474F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00722BDE2CF120CE00D474F6 = {
+			isa = PBXGroup;
+			children = (
+				00722BE92CF120CE00D474F6 /* TddFizzBuzz1 */,
+				00722C002CF120D000D474F6 /* TddFizzBuzz1Tests */,
+				00722C0A2CF120D000D474F6 /* TddFizzBuzz1UITests */,
+				00722BE82CF120CE00D474F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00722BE82CF120CE00D474F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00722BE72CF120CE00D474F6 /* TddFizzBuzz1.app */,
+				00722BFD2CF120D000D474F6 /* TddFizzBuzz1Tests.xctest */,
+				00722C072CF120D000D474F6 /* TddFizzBuzz1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00722BE62CF120CE00D474F6 /* TddFizzBuzz1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00722C102CF120D000D474F6 /* Build configuration list for PBXNativeTarget "TddFizzBuzz1" */;
+			buildPhases = (
+				00722BE32CF120CE00D474F6 /* Sources */,
+				00722BE42CF120CE00D474F6 /* Frameworks */,
+				00722BE52CF120CE00D474F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				00722BE92CF120CE00D474F6 /* TddFizzBuzz1 */,
+			);
+			name = TddFizzBuzz1;
+			packageProductDependencies = (
+			);
+			productName = TddFizzBuzz1;
+			productReference = 00722BE72CF120CE00D474F6 /* TddFizzBuzz1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00722BFC2CF120D000D474F6 /* TddFizzBuzz1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00722C152CF120D000D474F6 /* Build configuration list for PBXNativeTarget "TddFizzBuzz1Tests" */;
+			buildPhases = (
+				00722BF92CF120D000D474F6 /* Sources */,
+				00722BFA2CF120D000D474F6 /* Frameworks */,
+				00722BFB2CF120D000D474F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00722BFF2CF120D000D474F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				00722C002CF120D000D474F6 /* TddFizzBuzz1Tests */,
+			);
+			name = TddFizzBuzz1Tests;
+			packageProductDependencies = (
+			);
+			productName = TddFizzBuzz1Tests;
+			productReference = 00722BFD2CF120D000D474F6 /* TddFizzBuzz1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00722C062CF120D000D474F6 /* TddFizzBuzz1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00722C182CF120D000D474F6 /* Build configuration list for PBXNativeTarget "TddFizzBuzz1UITests" */;
+			buildPhases = (
+				00722C032CF120D000D474F6 /* Sources */,
+				00722C042CF120D000D474F6 /* Frameworks */,
+				00722C052CF120D000D474F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00722C092CF120D000D474F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				00722C0A2CF120D000D474F6 /* TddFizzBuzz1UITests */,
+			);
+			name = TddFizzBuzz1UITests;
+			packageProductDependencies = (
+			);
+			productName = TddFizzBuzz1UITests;
+			productReference = 00722C072CF120D000D474F6 /* TddFizzBuzz1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00722BDF2CF120CE00D474F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					00722BE62CF120CE00D474F6 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					00722BFC2CF120D000D474F6 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 00722BE62CF120CE00D474F6;
+					};
+					00722C062CF120D000D474F6 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 00722BE62CF120CE00D474F6;
+					};
+				};
+			};
+			buildConfigurationList = 00722BE22CF120CE00D474F6 /* Build configuration list for PBXProject "TddFizzBuzz1" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00722BDE2CF120CE00D474F6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 00722BE82CF120CE00D474F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00722BE62CF120CE00D474F6 /* TddFizzBuzz1 */,
+				00722BFC2CF120D000D474F6 /* TddFizzBuzz1Tests */,
+				00722C062CF120D000D474F6 /* TddFizzBuzz1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00722BE52CF120CE00D474F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00722BFB2CF120D000D474F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00722C052CF120D000D474F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00722BE32CF120CE00D474F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00722BF92CF120D000D474F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00722C032CF120D000D474F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00722BFF2CF120D000D474F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00722BE62CF120CE00D474F6 /* TddFizzBuzz1 */;
+			targetProxy = 00722BFE2CF120D000D474F6 /* PBXContainerItemProxy */;
+		};
+		00722C092CF120D000D474F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00722BE62CF120CE00D474F6 /* TddFizzBuzz1 */;
+			targetProxy = 00722C082CF120D000D474F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00722C112CF120D000D474F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ7377FV92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TddFizzBuzz1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharmamithra.TddFizzBuzz1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00722C122CF120D000D474F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ7377FV92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TddFizzBuzz1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharmamithra.TddFizzBuzz1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00722C132CF120D000D474F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00722C142CF120D000D474F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00722C162CF120D000D474F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ7377FV92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharmamithra.TddFizzBuzz1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TddFizzBuzz1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TddFizzBuzz1";
+			};
+			name = Debug;
+		};
+		00722C172CF120D000D474F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ7377FV92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharmamithra.TddFizzBuzz1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TddFizzBuzz1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TddFizzBuzz1";
+			};
+			name = Release;
+		};
+		00722C192CF120D000D474F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ7377FV92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharmamithra.TddFizzBuzz1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TddFizzBuzz1;
+			};
+			name = Debug;
+		};
+		00722C1A2CF120D000D474F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ7377FV92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharmamithra.TddFizzBuzz1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TddFizzBuzz1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00722BE22CF120CE00D474F6 /* Build configuration list for PBXProject "TddFizzBuzz1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00722C132CF120D000D474F6 /* Debug */,
+				00722C142CF120D000D474F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00722C102CF120D000D474F6 /* Build configuration list for PBXNativeTarget "TddFizzBuzz1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00722C112CF120D000D474F6 /* Debug */,
+				00722C122CF120D000D474F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00722C152CF120D000D474F6 /* Build configuration list for PBXNativeTarget "TddFizzBuzz1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00722C162CF120D000D474F6 /* Debug */,
+				00722C172CF120D000D474F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00722C182CF120D000D474F6 /* Build configuration list for PBXNativeTarget "TddFizzBuzz1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00722C192CF120D000D474F6 /* Debug */,
+				00722C1A2CF120D000D474F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00722BDF2CF120CE00D474F6 /* Project object */;
+}
